@@ -21,7 +21,7 @@ End the program and close the output image windows.
 ## Program:
 ### Developed By: Dhanasekar G
 ### Register Number: 212220230009
-i) #To Read,display the image
+### i) To Read,display the image
 ```
 import cv2
 img = cv2.imread('bike.jpg',1)
@@ -29,20 +29,20 @@ cv2.imshow('dhans',img)
 cv2.waitKey(0)
 
 ```
-ii) #To write the image
+### ii) To write the image
 ```
 
 cv2.imwrite('ds.jpg',img)
 
 ```
-iii) #Find the shape of the Image
+### iii) Find the shape of the Image
 ```
 print(img.shape)
 
 
 
 ```
-iv) #To access rows and columns
+### iv) To access rows and columns
 ```
 
 ds = cv2.imread('tony.jpg',1)
@@ -54,7 +54,7 @@ cv2.imshow('image',ds)
 cv2.waitKey(0)
 
 ```
-v) #To cut and paste portion of image
+### v) To cut and paste portion of image
 ```
 
 bw2=cv2.imread('ronaldo.jpg',1)
